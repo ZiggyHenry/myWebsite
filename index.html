@@ -1,1 +1,44 @@
-<h1>hey guys</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter</title>
+</head>
+<style>
+   .text {
+    color: aliceblue;
+   }
+</style>
+
+<body style="background-image:url('enter.jpg'); 
+    background-size: cover; background-repeat: no-repeat;
+    background-color:black;">
+
+<div style="position: absolute; left: 130px; top: 171px">
+    <h1 class="text" style="text-align: center;">Welcome to My Domain</h1>
+
+    <form style="text-align: center;">
+        <label class="text" for="pswd">Password: </label>
+        <input id="pswd" style="font-family: 'Courier New', Courier, monospace;">
+        <br>
+        <br>
+        <input style="font-family: 'Times New Roman', Times, serif; font-size: medium;" 
+            type="button" value="Enter Site" onclick="checkPswd();" />
+    </form>
+</div>
+
+
+<!--Function to check password the already set password is admin-->
+<script type="text/javascript">
+    function checkPswd() {
+        var password = "admin";
+        var attempt = document.getElementById("pswd").value;
+        if (attempt == "Beneath" + " Your " + "Feet") {
+             window.location="home.html";
+        }
+        else{
+            alert("Wrong One");
+        }
+    }
+</script>
+</body>
+</html>
