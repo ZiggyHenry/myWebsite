@@ -1,0 +1,11 @@
+.text {
+    color: aliceblue;
+}
+
+body {
+    background-color:hsl(221, 41%, 47%);
+}
+
+#bodyDiv {
+    position: absolute; left:50px; top:150px;
+}
