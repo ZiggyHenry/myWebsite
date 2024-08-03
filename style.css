@@ -9,3 +9,17 @@ body {
 #bodyDiv {
     position: absolute; left:50px; top:150px;
 }
+
+.banner {
+    display: inline-block;
+    padding-inline: 4px;
+}
+
+.btext {
+    display: inline-block;
+    padding-inline: 4px;
+    text-decoration: none;
+    border: 1px solid dodgerblue;
+    border-bottom: 10px;
+    border-top: 10px;
+}
