@@ -53,13 +53,13 @@ class boiler extends HTMLElement {
 class boilerHead extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <link rel="icon" href="home.jpg">
+        <link rel="icon" type="image/jpg" href="home.jpg">
       `;
     }
 }
 
-customElements.define('main-banner', Banner);
 customElements.define('main-head', boilerHead);
+customElements.define('main-banner', Banner);
 customElements.define('main-boiler', boiler);
