@@ -2,6 +2,10 @@
     color: aliceblue;
 }
 
+.darkText {
+    color:rgb(4, 7, 35);
+}
+
 body {
     background-color:hsl(221, 41%, 47%);
 }
