@@ -9,11 +9,13 @@ class template extends HTMLElement {
 class Banner extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
-            <div style="position: absolute; left: 30px; top:30px">
+            <div style="position: absolute; left: 30px; top:30px; white-space: nowrap;">
             <img src="banner.jpg" height="100px" style="position:absolute; z-index: 0;">
                 <div style="position: relative; left:10px; top:-10px; z-index:20;">
                     <a class="banner" href="home.html" style="position:relative; top:26px">
-                    <img src="home.jpg" height="70px">
+                        <img src="home.jpg" height="70px">
+                        <p style="text-decoration: none; display: none;
+                        ">Home!</p>
                     </a>
                     
                     <a class="btext" href="pictures.html">
