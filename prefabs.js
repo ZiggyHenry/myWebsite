@@ -1,6 +1,14 @@
+class template extends HTMLElement {
+    connectedCallback() {
+      this.innerHTML = `
+        <!--[put html here!]-->
+      `;
+    }
+}
+
 class Banner extends HTMLElement {
     connectedCallback() {
-      this.innerHTML = `         
+      this.innerHTML = `
             <div style="position: absolute; left: 30px; top:30px">
             <img src="banner.jpg" height="100px" style="position:absolute; z-index: 0;">
                 <div style="position: relative; left:10px; top:-10px; z-index:20;">
@@ -32,4 +40,24 @@ class Banner extends HTMLElement {
     }
   }
 
+class boiler extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+            <!--put stuff here-->
+        `;
+    }
+}
+
+class boilerHead extends HTMLElement {
+    connectedCallback() {
+      this.innerHTML = `
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="icon" href="home.jpg">
+      `;
+    }
+}
+
 customElements.define('main-banner', Banner);
+customElements.define('main-head', boilerHead);
+customElements.define('main-boiler', boiler);
