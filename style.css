@@ -45,18 +45,24 @@ body {
 }
 */
 
+.postsSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 .postContainer {
-    display: block;
-    margin:auto;
-    width: 600px;
+    width: min-content;
 }
 
 .postDivider {
     background-image: url(images/divider.png);
-    height: 40px;
+    width: 100%;
+    height: 90px;
     background-repeat: no-repeat;
     background-size: contain;
-    text-align: center;
 }
 
 .postTitle {
@@ -68,10 +74,8 @@ body {
 }
 
 .video {
-    width: 1000px;
-    height: 666px;
-    position: relative;
-    left: calc(50% - 500px);
+    width: 850px;
+    height: 563px;
 
     border: hidden;
 }
