@@ -11,7 +11,8 @@ body {
 }
 
 #bodyDiv {
-    position: absolute; left:50px; top:150px;
+    position: absolute; left:50px; top:120px;
+    width: 90%;
 }
 
 .banner {
@@ -26,3 +27,32 @@ body {
     border-bottom: 10px;
     border-top: 10px;
 }
+
+.postContainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.postDivider {
+    background-image: url(images/divider.png);
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+
+.postTitle {
+
+}
+
+.postSubtext {
+    margin-left: 4%;
+}
+
+.video {
+    width: 600px;
+    height: 400px;
+}
+
