@@ -11,8 +11,8 @@ body {
 }
 
 #bodyDiv {
-    position: absolute; left:50px; top:120px;
-    width: 90%;
+    position: absolute; left:50px; top:110px;
+    width: 95%;
 }
 
 .banner {
@@ -28,10 +28,26 @@ body {
     border-top: 10px;
 }
 
+.pageTitle {
+    font-size: 60px;
+}
+
+.pageDesc {
+    font-size: 35px;
+}
+
+/*
 .postContainer {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    width: 1000px;
+    left: calc(50% - 500px); /* use width / 2 /
+}
+*/
+
+.postContainer {
+    display: block;
+    margin:auto;
     width: 600px;
 }
 
@@ -52,8 +68,10 @@ body {
 }
 
 .video {
-    width: 600px;
-    height: 400px;
+    width: 1000px;
+    height: 666px;
+    position: relative;
+    left: calc(50% - 500px);
 
     border: hidden;
 }
