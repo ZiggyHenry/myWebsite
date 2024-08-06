@@ -12,10 +12,9 @@ class Banner extends HTMLElement {
             <div style="position: absolute; left: 30px; top:30px; white-space: nowrap;">
             <img src="images/banner.jpg" height="100px" style="position:absolute; z-index: 0;">
                 <div style="position: relative; left:10px; top:-10px; z-index:20;">
-                    <a class="banner" href="home.html" style="position:relative; top:26px">
-                        <img src="images/home.jpg" height="70px">
-                        <p style="text-decoration: none; display: none;
-                        ">Home!</p>
+                    <a class="banner" href="home.html" style="position:relative; top:26px; text-decoration: none;" height="70px">
+                        <img src="images/home.jpg" height="70px"></img>
+                        <span style="color: rgb(184, 192, 199); position: absolute; top: -62px; left: -10px; rotate: 312deg; font-size: 75%; z-index: 50;">Home</span>
                     </a>
                     
                     <a class="btext" href="pictures.html">
