@@ -60,17 +60,21 @@ body {
 .postDivider {
     background-image: url(images/divider.png);
     width: 100%;
-    height: 90px;
+    height: 80px;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .postTitle {
-
+    font-size: 50px;
+    line-height: 20px;
 }
 
 .postSubtext {
     margin-left: 4%;
+    font-size: 20px;
+    position: relative;
+    top: -10px;
 }
 
 .video {
