@@ -84,3 +84,14 @@ body {
     border: hidden;
 }
 
+.story {
+    width: 1000px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.story p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 19px;
+}

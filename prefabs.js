@@ -10,26 +10,26 @@ class Banner extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
             <div style="position: absolute; left: 30px; top:30px; white-space: nowrap;">
-            <img src="images/banner.jpg" height="100px" style="position:absolute; z-index: 0;">
+            <img src="/images/banner.jpg" height="100px" style="position:absolute; z-index: 0;">
                 <div style="position: relative; left:10px; top:-10px; z-index:20;">
-                    <a class="banner" href="home.html" style="position:relative; top:26px; text-decoration: none;" height="70px">
-                        <img src="images/home.jpg" height="70px"></img>
+                    <a class="banner" href="/pages/home.html" style="position:relative; top:26px; text-decoration: none;" height="70px">
+                        <img src="/images/home.jpg" height="70px"></img>
                         <span style="color: rgb(184, 192, 199); position: absolute; top: -62px; left: -10px; rotate: 312deg; font-size: 75%; z-index: 50;">Home</span>
                     </a>
                     
-                    <a class="btext" href="pictures.html">
+                    <a class="btext" href="/pages/pictures.html">
                     <h1 class="text">
-                        Pictures</h1>
+                        Sights</h1>
                     </a>
-                    <a class="btext" href="songs.html">
+                    <a class="btext" href="/pages/songs.html">
                     <h1 class="text">
-                        Songs</h1>
+                        Sounds</h1>
                     </a>
-                    <a class="btext" href="stories.html">
+                    <a class="btext" href="/pages/stories.html">
                         <h1 class="text">
-                            Stories</h1>
+                            Words</h1>
                     </a>
-                    <a class="btext" href="film.html">
+                    <a class="btext" href="/pages/film.html">
                         <h1 class="text">
                             film</h1>
                     </a>
@@ -54,7 +54,7 @@ class boilerHead extends HTMLElement {
       this.innerHTML = `
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <link rel="icon" type="image/jpg" href="images/home.jpg">
+        <link rel="icon" type="image/jpg" href="/images/home.jpg">
       `;
     }
 }
